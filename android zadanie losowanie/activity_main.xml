@@ -14,19 +14,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginBottom="20dp"
+                android:layout_marginBottom="24dp"
                 android:text="Losowanie kostek"
-                android:textSize="26sp"
+                android:textSize="28sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Podaj liczbę kostek:"
+                android:text="Liczba kostek:"
                 android:textSize="18sp" />
 
             <EditText
-                android:id="@+id/poleIloscKostek"
+                android:id="@+id/editTekstLiczbaKostek"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Liczba kostek"
