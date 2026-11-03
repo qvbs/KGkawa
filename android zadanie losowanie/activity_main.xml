@@ -29,56 +29,58 @@
                 android:id="@+id/editTekstLiczbaKostek"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Liczba kostek"
+                android:hint="podaj liczbe kostek"
                 android:inputType="number"
                 android:text="5" />
 
             <Button
-                android:id="@+id/przyciskLosuj"
+                android:id="@+id/buttonLosuj"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:text="Losuj kostki" />
+                android:layout_marginTop="16dp"
+                android:text="LOSUJ" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Wyniki losowania:"
+                android:text="Wylosowane kostki:"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <GridLayout
-                android:id="@+id/poleKostek"
+                android:id="@+id/gridKostki"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:columnCount="1"
+                android:alignmentMode="alignMargins"
+                android:layout_gravity="center"
+                android:useDefaultMargins="true"
                 android:gravity="center"
-                android:layout_marginTop="8dp" />
+                android:layout_marginTop="10dp" />
 
             <TextView
-                android:id="@+id/wynikText"
+                android:id="@+id/TextViewWyniki"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
                 android:gravity="center"
-                android:padding="12dp"
-                android:text="Tutaj pojawią się wyniki"
+                android:padding="10dp"
+                android:text="wyniki:"
                 android:textSize="20sp" />
 
             <Button
-                android:id="@+id/przyciskRosnaco"
+                android:id="@+id/buttonRosnaco"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:text="Sortuj rosnąco" />
+                android:layout_marginTop="10dp"
+                android:text="SORTUJ ROSNACO" />
 
             <Button
-                android:id="@+id/przyciskMalejaco"
+                android:id="@+id/buttonMalejaco"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:text="Sortuj malejąco" />
+                android:layout_marginTop="10dp"
+                android:text="SORTUJ MALEJACO" />
 
         </LinearLayout>
 </ScrollView>
